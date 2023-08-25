@@ -2,8 +2,12 @@
 
 Postgres Docker Spawner is a Python-based CLI tool designed to simplify the creation and management of PostgreSQL containers. If you find yourself working on multiple projects that require separate PostgreSQL databases or want to avoid conflicts with your local database setup, this utility is here to streamline the process.
 
-> This is a very early verison of the project. There is plan to drastically improve UI using `rich` and add
-> further monitoring utilities. Also there are plans to add more configurable options like choosing postgres image, mounting volumes etc.
+> This is a very early verison of the project. There is plan to:
+
+> 1.  Drastically improve UI using `rich`
+> 2.  Add further monitoring utilities.
+> 3.  Add more configurable options like choosing postgres image, mounting volumes etc.
+> 4.  Setup CI/CD pipeline and write tests for the CLI using click.runner
 
 ## Why Postgres Docker Spawner?
 
